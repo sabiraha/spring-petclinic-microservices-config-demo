@@ -3,12 +3,12 @@
 
 eureka:
   instance:
-    hostname: INDSCHN9NHN6C2.AMERICAS.GLOBAL.NTTDATA.COM
+    #hostname: INDSCHN9NHN6C2.AMERICAS.GLOBAL.NTTDATA.COM
   # standalone mode
   client:
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    #serviceUrl:
+    #  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #https://discovery-server.apps.nttcloudcoe.com/
 
