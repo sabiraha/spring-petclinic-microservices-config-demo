@@ -29,6 +29,4 @@ eureka:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
 
-eureka:
-  instance:
-      
+
